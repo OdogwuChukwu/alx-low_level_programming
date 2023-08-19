@@ -1,14 +1,17 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * _isuppler-checks for uppercase character
- * @c: function parameter
- * Return: 1 on success 0 on failure
+ * _isuppler -prog checks for uppercase character
+ * @c: Variables text
+ * Return: Always 0.
  */
-int _isuppler(int c)
+int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
